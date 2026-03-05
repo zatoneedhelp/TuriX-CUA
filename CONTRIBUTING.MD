@@ -262,6 +262,14 @@ async def test_click_element_success(mock_element):
 3. **Check code style:** Run linting tools
 4. **Rebase on main:** Ensure your branch is up to date
 
+### PR Design Principles
+
+To ensure a smooth review and merge process, please follow these principles:
+
+- **Atomicity:** A Pull Request should do one thing. If you have multiple unrelated features or bug fixes, please split them into separate PRs. This makes review easier and faster.
+- **Minimalism:** Avoid including personal configuration files, unnecessary refactors, or unrelated "nice-to-have" changes in a functional PR.
+- **Partial Acceptance:** Please be aware that if a PR contains multiple changes, maintainers may choose to **cherry-pick** only the relevant parts into the codebase. In such cases, the original PR will be closed with a reference to the new commit, and you will still be credited for your contribution.
+
 ### Pull Request Template
 
 When creating a pull request, include:

@@ -90,9 +90,8 @@ OR (for read files only):
      - Example: The agent pressed Enter to go to youtube.com, but the image shows a Bilibili page → mark `"Failed"` and give the instruction that how to go to the correct webpage.
      - If the loading bar is clearly still progressing, mark `"Success"`.
   7. If something is unclear (e.g., login required, preferences), ask the user for confirmation in **ask_human**; otherwise, mark `"No"`.
-  8. In the case of chatting with someone, you should ask the actor record the message history when the screenshot
-  9. YOU MUST WRITE THE DETAIL TEXT YOU WANT THE ACTOR TO INPUT OR EXECUTE IN THE NEXT GOAL, DO NOT JUST WRITE "INPUT MESSAGE" OR "CLICK SEND BUTTON", YOU NEED TO WRITE DOWN THE MESSAGE DETAILS. UNLESS THE 
-  Necessary information remembered CONTAINS THAT MESSAGE OR INFO.
+  8. In the case of chatting with someone, you should ask the actor record the message history when the screenshot changes.
+  9. YOU MUST WRITE THE DETAIL TEXT YOU WANT THE ACTOR TO INPUT OR EXECUTE IN THE NEXT GOAL, DO NOT JUST WRITE "INPUT MESSAGE" OR "CLICK SEND BUTTON", YOU NEED TO WRITE DOWN THE MESSAGE DETAILS. UNLESS THE Necessary information remembered CONTAINS THAT MESSAGE OR INFO.
   10. You should do the analyzation (including the user analyzation in the screenshot) in the analysis field.
   11. When you ask the actor to scroll down and you want to store the information in the screenshot, you need to write down in the next goal that you want the actor to record_info (with a short `file_name`), then scroll down.
   12. When you want to scroll for a whole page or half page, you need to specify it in the next goal.

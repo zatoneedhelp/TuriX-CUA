@@ -734,7 +734,7 @@ class Agent:
                         {
                             "type": "text",
                             "content": f"Previous step is {prev_step_id}.\n\nYour goal to achieve in this step is: {self.next_goal}\n\n"
-                                        f"Analysis to the current screen is: {self.brain_thought}.\n\nRecorded info files (filenames only): {info_files}\n\nCurrent UI state:\n{state}"
+                                        f"Analysis to the current screen is: {self.brain_thought}.\n\nCurrent UI state:\n{state}"
                         },
                         {
                             "type": "image_url",
