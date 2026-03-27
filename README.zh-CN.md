@@ -20,7 +20,7 @@
    </a>
 </p>
 
-如果你在github中有网络或其他问题导致无法clone我们的项目，也可以在[这里](https://atomgit.com/TuriXAI/TuriX-CUA)中找到我们
+如果你在github中有网络或其他问题导致无法clone我们的项目，也可以在[这里](https://atomgit.com/TuriXAI/TuriX-CUA)找到我们
 
 如果对我们的项目感兴趣，也欢迎加入我们的微信群：
 ![QRcode](https://raw.githubusercontent.com/Dennisyk348/QRcode/main/QRcode_0320.jpg)
